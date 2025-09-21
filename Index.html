@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Manos Verdes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0fdf4;
+      color: #333;
+    }
+    header {
+      background: url("https://images.unsplash.com/photo-1524593119773-531f3f34c27e?auto=format&fit=crop&w=1600&q=80") no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      position: relative;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    header img {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 90px;
+      z-index: 2;
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 2;
+    }
+    nav {
+      background: #2e7d32;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #c8e6c9;
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+      max-width: 950px;
+      margin: auto;
+    }
+    h2 {
+      color: #1b5e20;
+      border-bottom: 2px solid #66bb6a;
+      padding-bottom: 8px;
+    }
+    .box {
+      background: #e8f5e9;
+      padding: 20px;
+      border-left: 6px solid #1b5e20;
+      margin-bottom: 25px;
+      border-radius: 6px;
+    }
+    footer {
+      background: #1b5e20;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Escudo_de_la_Polic%C3%ADa_Nacional_de_Colombia.svg" alt="Escudo Policía Nacional">
+    <h1>Proyecto Manos Verdes</h1>
+    <p>Conservación de plantas nativas y educación ambiental en Facatativá</p>
+  </header>
+
+  <nav>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#poblacion">Población</a>
+    <a href="#tiempo">Tiempo</a>
+    <a href="#variables">Variables</a>
+  </nav>
+
+  <section id="objetivos">
+    <h2>Objetivos del Proyecto</h2>
+    <div class="box">
+      <ul>
+        <li>Identificar especies de plantas nativas adecuadas para reproducción en vivero.</li>
+        <li>Caracterizar el ecosistema local de Facatativá (clima, suelos, altitud).</li>
+        <li>Elaborar un inventario de especies nativas con potencial ornamental, ecológico o alimenticio.</li>
+        <li>Fomentar la participación comunitaria e inclusión social mediante educación ambiental.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="poblacion">
+    <h2>Población y Grupo de Estudio</h2>
+    <div class="box">
+      <p>El proyecto involucra a la comunidad de Facatativá, incluyendo:</p>
+      <ul>
+        <li>Habitantes locales interesados en la conservación ambiental.</li>
+        <li>Niños y jóvenes de escuelas urbanas y rurales.</li>
+        <li>Adultos mayores y personas con discapacidad.</li>
+        <li>Organizaciones comunitarias y sociales.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="tiempo">
+    <h2>Duración del Proyecto</h2>
+    <div class="box">
+      <p>Duración total: <strong>12 meses</strong> (enero a diciembre de 2026).</p>
+      <ul>
+        <li>Meses 1-2: Planificación y organización.</li>
+        <li>Meses 3-4: Adecuación del vivero.</li>
+        <li>Meses 5-7: Siembra y formación comunitaria.</li>
+        <li>Meses 8-10: Mantenimiento y seguimiento.</li>
+        <li>Meses 11-12: Evaluación y socialización de resultados.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="variables">
+    <h2>Variables de Investigación</h2>
+    <div class="box">
+      <p><strong>Ambientales:</strong> diversidad de especies, calidad del suelo, uso del agua.</p>
+      <p><strong>Sociales:</strong> número de participantes, inclusión de grupos vulnerables.</p>
+      <p><strong>Educativas:</strong> talleres realizados, conocimientos adquiridos.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Proyecto desarrollado por la Escuela Nacional de Carabineros “Alfonso López Pumarejo” | 2026</p>
+  </footer>
+</body>
+</html>
